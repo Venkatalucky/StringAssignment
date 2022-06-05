@@ -1,0 +1,25 @@
+package StringAssignments;
+
+public class String_Builder_program 
+{
+	public static void main(String[] args) 
+	{
+		StringBuilder builder = new StringBuilder("StringBuilder");
+		
+		builder.append(" is a peer class of string" + "that provides much of " + " functionality of strings.");
+		
+		System.out.println(builder);
+		
+		StringBuilder builder1 = new StringBuilder("It is udsed to at the specified index position");
+		builder1.insert(14, " insert text");
+		System.out.println(builder1);
+		
+		StringBuilder builder2 = new StringBuilder("This method returns the raversed object on which it was called");
+		
+		builder2.reverse();
+		
+		System.out.println(builder2);
+		
+	}
+
+}
